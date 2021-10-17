@@ -13,10 +13,7 @@ export function TodoInput({ addTask }: TodoInputProps) {
     if(task !== '' && typeof task == 'string'){
       addTask(task)
       setTask('')
-    }
-    // if(typeof task !== 'string') return
-    
-    
+    }    
   }
 
   return (
